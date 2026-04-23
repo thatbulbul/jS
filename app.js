@@ -19,20 +19,6 @@ else{
     console.log("shit i m not");
 }
 
-//problem statement for traffic light based on color
-
-let color="green";
-
-if(color=="red"){
-    console.log("stop bitch");
-}
-if(color=="yellow"){
-    console.log("Be ready");
-}
-if(color=="green"){
-    console.log("gooooo");
-}
-
 //if else statement 
 
 let age=-20;
@@ -47,22 +33,7 @@ else{
     console.log("not a chance")
 }
 
-//problem statement related to popcorn pricing
 
-let size="L";
-
-if(size=="XL"){
-    console.log("prize is 250");
-}
-else if(size=="L"){
-    console.log("prize is 200");
-}
-else if(size=="M"){
-    console.log("prize is 100");
-}
-else{
-    console.log("prize is 50");
-}
 
 //nested if-else
 
@@ -81,13 +52,21 @@ else{
     console.log("you are failed");
 }
 
-//problem statement
+//switch statement
 
-let str="apple";
+let rang="green";
 
-if(str[0]=="a" && str.length==5){
-    console.log("it is a good string")
+switch(rang){
+    case"red":
+    console.log("stop");
+    break;
+    case"yellow":
+    console.log("wait");
+    break;
+    case"green":
+    console.log("goo");
+    break;
+    default:
+    console.log("light is broken");
 }
-else{
-    console.log("not a good string");
-}
+
