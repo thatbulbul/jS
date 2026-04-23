@@ -32,3 +32,17 @@ if(color=="yellow"){
 if(color=="green"){
     console.log("gooooo");
 }
+
+//if else statement 
+
+let age=-20;
+
+if(age>=18){
+    console.log("eligible for vote");
+}
+else if (age<18 & age>0){
+    console.log("no can't vote");
+}
+else{
+    console.log("not a chance")
+}
