@@ -10,3 +10,25 @@ console.log(output);
 let temp=`using the template literals ${a+b} ruppess`;
 console.log(temp);
 
+//conditional statement
+
+if(a>12){
+    console.log("yehh i m more than 10");
+}
+else{
+    console.log("shit i m not");
+}
+
+//problem statement for traffic light based on color
+
+let color="green";
+
+if(color=="red"){
+    console.log("stop bitch");
+}
+if(color=="yellow"){
+    console.log("Be ready");
+}
+if(color=="green"){
+    console.log("gooooo");
+}
