@@ -46,3 +46,37 @@ else if (age<18 & age>0){
 else{
     console.log("not a chance")
 }
+
+//problem statement related to popcorn pricing
+
+let size="L";
+
+if(size=="XL"){
+    console.log("prize is 250");
+}
+else if(size=="L"){
+    console.log("prize is 200");
+}
+else if(size=="M"){
+    console.log("prize is 100");
+}
+else{
+    console.log("prize is 50");
+}
+
+//nested if-else
+
+let marks=80;
+
+if(marks>33){
+    console.log("student is passed");
+    if(marks>60& marks<70){
+        console.log("you get an B");
+    }
+    else if(marks>70){
+        console.log("you get an A");
+    }
+}
+else{
+    console.log("you are failed");
+}
