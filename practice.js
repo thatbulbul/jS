@@ -70,3 +70,32 @@ switch(day){
     default:
         console.log("not a day idiot");
 }
+
+//function on array chnage the array to july june march august
+
+// let months=["january","july","march","august"];
+// months.shift();
+// months.shift();
+// months.unshift("june");
+// months.unshift("july");
+// console.log(months);
+
+//chnging the array using splice
+let months=["january","july","march","august"];
+months.splice(0,2,"july","june"); //(start,no of items, add items)
+
+//create an tic tac toe using array
+let tic=[[1,0,0],[0,1,0],[0,0,1]];
+
+//guess fav movie
+
+let fav="Ironman";
+let guess=prompt("guess the fav movie");
+
+while(guess!=fav && guess!="quit"){
+    console.log("wrong guess");
+    guess=prompt("guess the movie again");
+}
+if (guess==fav){
+    alert("yehhhh congrats");
+}

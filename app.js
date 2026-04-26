@@ -78,9 +78,91 @@ console.warn("warning sample");
 
 //prompt
 
-let app= prompt("enter your dob");
-console.log(app);
+// let app= prompt("enter your dob");
+// console.log(app);
 
 //trim & uppercase
 let word='helloworld ';
 console.log(word.trim().toUpperCase());
+
+//slice
+
+let name="bulbul sharma";
+console.log(name.slice(4,9));
+console.log(name.indexOf("sh"));
+console.log(name.replace("ul","cu"));
+
+let college="apnaCollege";
+console.log(college.slice(4).replace("l","t").replace("l","t"));
+
+//array
+
+let arr=[2,"Bulbul",17.4,true];
+
+//array concatenation of arr and arr2
+
+let arr2=[3,"Sharma"];
+arr.concat(arr2);
+
+//sorting
+let counting=[2,8,33,1,4];
+console.log(counting.sort());
+
+//loop
+// for(let i=0;i <10;i++){
+//     console.log(i);
+// }
+
+//print odd numbers
+// for(let j=1;j<=15;j=j+2){
+//     console.log(j);
+// }
+
+//print even number
+
+// for (let k=2;k<=16;k=k+2){
+//     console.log(k);
+// }
+
+//nested loop
+
+// for(let i=1; i <=4;i++){
+//     for(j=1;j<=3;j++){
+//         console.log(j);
+//     }
+// }
+
+//while loop
+// let k=1;
+// while(k<=10){
+// console.log(k),
+// k++;
+// }
+
+//nested loops in arrays 
+let heros=[["ironman","thor",'hulk'],["wonderwoman","superman","flask"]];
+
+// for(let i=0;i<heros.length;i++){
+//     console.log(heros[i]);
+//     for(let j=0;j<heros[i].length;j++){
+//         console.log(heros[i][j]);
+//     }
+// }
+for(list of heros){
+    for(hero of list){
+        console.log(hero);
+    }
+}
+
+
+//for of Loop
+
+let fruits=["apple","banana","pear","grapes"];
+for(fruit of fruits){
+    console.log(fruit);
+}
+
+let char="BulbulSharma";
+for(charactars of char){
+    console.log(charactars);
+}
