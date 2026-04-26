@@ -70,3 +70,17 @@ switch(rang){
     console.log("light is broken");
 }
 
+//alert
+
+//alert("hello there");
+console.error("this is wrong password"); //error
+console.warn("warning sample");
+
+//prompt
+
+let app= prompt("enter your dob");
+console.log(app);
+
+//trim & uppercase
+let word='helloworld ';
+console.log(word.trim().toUpperCase());
